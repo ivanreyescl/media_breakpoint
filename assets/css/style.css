@@ -227,14 +227,11 @@ footer > p {
     .site-pagination-desktop {
         display: flex;
         justify-content: center;
-        border-radius: 15px;
-        gap: 0rem;
     }
 
     .site-pagination-desktop > a {
-        padding: 3%;
+        padding: 1%;
         color: #00579c;
-        border: 1px solid #dfdfdf;
     }
     .site-pagination-mobile{
         display:none;
@@ -263,7 +260,7 @@ footer > p {
 
     .aside-menu {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
         gap: 1rem;
